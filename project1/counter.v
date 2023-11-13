@@ -1,5 +1,5 @@
 module counter(out, clk, reset);
-parameter WIDTH = 8;
+parameter WIDTH = 10;
 output [WIDTH-1: 0] out;
 input clk, reset;
 reg [WIDTH-1: 0] out;
